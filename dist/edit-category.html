@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/list-order.9eb3adc6.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/solid.min.css">
+        <link rel="stylesheet" href="/add-category.83d9161e.css">
+        <title>Admintrator</title>
+    </head>
+
+    <body>
+        <div id="warpper" class="nav-fixed">
+            <nav class="topnav shadow navbar-light bg-white d-flex">
+                <div class="navbar-brand"><a href="?">ISMART ADMIN</a></div>
+                <div class="nav-right">
+                    <div class="btn-group mr-auto">
+                        <button type="button" class="btn dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="plus-icon fas fa-plus-circle"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="add-post">Thêm bài viết</a>
+                            <a class="dropdown-item" href="add-product">Thêm sản phẩm</a>
+                            <a class="dropdown-item" href="list-order">Thêm đơn hàng</a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Văn Sỹ
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Tài khoản</a>
+                            <a class="dropdown-item" href="#">Thoát</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- end nav  -->
+            <div id="page-body" class="d-flex">
+                <div id="sidebar" class="bg-white">
+                    <ul id="sidebar-menu">
+                        <li class="nav-link active">
+                            <a href="#">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Danh mục
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="/add-category.html">Thêm mới</a>
+                                </li>
+                                <li>
+                                    <a href="/list-category.html">Danh sách</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Sản phẩm
+                            </a>
+                            <i class="arrow fas fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="/add-product.html">Thêm mới</a>
+                                </li>
+                                <li>
+                                    <a href="/list-product.html">Danh sách</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="/list-order.html">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Bán hàng
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+                            <ul class="sub-menu">
+                                <li><a href="/list-order.html">Đơn hàng</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="?view=list-user">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Users
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+
+                            <ul class="sub-menu">
+                                <li><a href="?view=add-user">Thêm mới</a></li>
+                                <li><a href="?view=list-user">Danh sách</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="wp-content">
+                    <div id="content" class="container-fluid">
+                        <div class="card">
+                            <div class="card-header font-weight-bold">
+                                Cập nhật danh mục
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="categoryId" class="font-weight-bold">ID loại hàng</label>
+                                        <input class="form-control" type="text" name="categoryId" id="categoryId" readonly="readonly">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="categoryName" class="font-weight-bold">Tên loại hàng</label>
+                                        <input class="form-control" type="text" name="categoryName" id="categoryName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="categoryImage" class="font-weight-bold">URL Hình ảnh</label>
+                                        <input class="form-control" type="text" name="categoryImage" id="categoryImage">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary" id="update">
+                                        Cập Nhật
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="/add-category.0c638428.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="/edit-category.1908293b.js" defer=""></script>
+    </body>
+</html>

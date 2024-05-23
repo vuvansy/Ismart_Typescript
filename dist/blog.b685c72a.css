@@ -1,0 +1,57 @@
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  display: block;
+}
+
+.owl-carousel {
+  -ms-touch-action: pan-y;
+  width: 100%;
+  display: none;
+  position: relative;
+}
+
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-wrapper-outer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -o-transition: height .5s ease-in-out;
+  transition: height .5s ease-in-out;
+}
+
+.owl-carousel .owl-item {
+  float: left;
+}
+
+.owl-controls .owl-page, .owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+
+.owl-controls {
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: #0000;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+/*# sourceMappingURL=blog.b685c72a.css.map */

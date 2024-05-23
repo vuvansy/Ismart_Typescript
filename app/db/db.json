@@ -1,0 +1,713 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Điện Thoại",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png"
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-laptop.png"
+    },
+    {
+      "id": "b96b",
+      "name": "Phụ Kiện",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-accessories.png"
+    },
+    {
+      "name": "Đồng Hồ",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-smartwatch.png",
+      "id": "6449"
+    },
+    {
+      "name": "Màn Hình ",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-screen.png",
+      "id": "5d42"
+    },
+    {
+      "id": "b9e8",
+      "name": "Máy Tính Bảng",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/icon-mtb-desk.png"
+    },
+    {
+      "name": "PC-Để Bàn",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-pc.png",
+      "id": "0de1"
+    },
+    {
+      "id": "df7c",
+      "name": "PC-Gaming",
+      "image": "https://fptshop.com.vn/may-tinh-de-ban/Content/v5d/images/type-gaming.png?v=5"
+    },
+    {
+      "name": "TiVi ",
+      "image": "https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/img-ic-tivi.png",
+      "id": "6ad9"
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "1",
+      "name": "Xiaomi Redmi Note 12 6GB 128GB",
+      "price_new": "7.590.000",
+      "price_old": "8.590.000",
+      "quantity": "10",
+      "description": "Redmi Note 13 sở hữu những nâng cấp đáng chú ý với con chip Snapdragon 685, GPU Mali-G57 cùng 6GB RAM để có thể cải thiện tới 25% hiệu năng và 35% khả năng hiển thị đồ hoạ. ",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/11/638405807209611259_xiaomi-redmi-note-13-xanh-dd.gif",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "categoryId": 1,
+      "name": "Điện thoại iPhone 15 Pro Max 256GB",
+      "price_old": "34.590.000",
+      "price_new": "32.590.000",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/30/638342502751589917_ip-15-pro-max-dd-bh-2-nam.jpg",
+      "quantity": 70,
+      "description": "iPhone 15 Pro Max mẫu điện thoại mới nhất của Apple cuối cùng cũng đã chính thức được ra mắt vào tháng 09/2023. Mẫu điện thoại này sở hữu một con chip với hiệu năng mạnh mẽ Apple A17 Pro, màn hình đẹp mắt và cụm camera vô cùng chất lượng."
+    },
+    {
+      "id": "3",
+      "categoryId": 2,
+      "name": "Laptop Asus Vivobook X415EA i3 1115G4/8GB/256GB/Win11 (EK2034W)",
+      "price_old": "10.990.000",
+      "price_new": "8.990.000",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/240x215/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png",
+      "quantity": 30,
+      "description": "Laptop Asus Vivobook với bộ vi xử lý Intel Core i3 1115G4 thế hệ thứ 11 và tốc độ xung nhịp lên đến 4.1 GHz đảm bảo sức mạnh và hiệu suất cao, đủ tốt để xử lý các tác vụ học tập, làm việc văn phòng trên Word, Excel, PowerPoint,... "
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "name": "Laptop Apple MacBook Air 13 inch M1 2020 ",
+      "price_old": "19.590.000",
+      "price_new": "19.190.000",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/240x215/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/20/637703173012881570_macbook-pro-14-2021-bac-dd.jpg",
+      "quantity": 100,
+      "description": "Laptop Apple MacBook Air M1 2020 thuộc dòng laptop cao cấp sang trọng có cấu hình mạnh mẽ, chinh phục được các tính năng văn phòng lẫn đồ hoạ mà bạn mong muốn, thời lượng pin dài, thiết kế mỏng nhẹ sẽ đáp ứng tốt các nhu cầu làm việc của bạn."
+    },
+    {
+      "categoryId": "2",
+      "name": "MacBook Air 15 inch M2 2023 8CPU 10GPU 8GB/256GB",
+      "price_new": "17.490.000",
+      "price_old": "20.990.000",
+      "quantity": "10",
+      "description": "ASUS TUF Gaming F15 FX506HF HN017W là chiếc laptop gaming giá rẻ nhưng vô cùng mạnh mẽ. Không chỉ bộ vi xử lý Intel thế hệ thứ 11, card đồ họa RTX 20 series mà điểm mạnh còn đến từ việc trang bị sẵn 16GB RAM, cho bạn hiệu năng xuất sắc mà không cần nâng cấp máy.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/6/638216321887898902_macbook-air-m2-2023-15-inch-bac-dd.jpg",
+      "id": "89cf"
+    },
+    {
+      "id": "6cb7",
+      "categoryId": "0de1",
+      "name": "Laptop Asus TUF Gaming FX506HF-HN017W11",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/19/638175165816785780_asus-tuf-gaming-fx506hf-den-dd-moi.jpg",
+      "price_new": "17.490.000",
+      "price_old": "20.990.000",
+      "quantity": "10",
+      "description": "ASUS TUF Gaming F15 FX506HF HN017W là chiếc laptop gaming giá rẻ nhưng vô cùng mạnh mẽ. Không chỉ bộ vi xử lý Intel thế hệ thứ 11, card đồ họa RTX 20 series mà điểm mạnh còn đến từ việc trang bị sẵn 16GB RAM, cho bạn hiệu năng xuất sắc mà không cần nâng cấp máy."
+    },
+    {
+      "id": "6095",
+      "categoryId": "6449",
+      "name": "Đồng hồ thông minh Garmin Forerunner 255 Music",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/16/637989408042339485_dong-ho-thong-minh-garmin-forerunner-255-music-dd.jpg",
+      "price_new": "7.990.000",
+      "price_old": "10.290.000",
+      "quantity": "50",
+      "description": "Với phiên bản Music của Garmin Forerunner 255, bạn có thể lưu trữ tới 500 bài hát và phát trực tiếp tới tai nghe không dây mà không cần kết nối cùng smartphone."
+    },
+    {
+      "id": "f76f",
+      "categoryId": "6449",
+      "name": "Amazfit GTS 4 Mini",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/9/638061926802049215_amazfit-gts-4-mini-dd.jpg",
+      "price_new": "2.090.000",
+      "price_old": " 2.590.000",
+      "quantity": "5",
+      "description": "Với giá thành phải chăng và kiểu dáng thanh lịch, Amazfit GTS 4 Mini đem đến cho bạn hàng loạt tính năng hấp dẫn như 120 chế độ tập luyện thể thao, nhận diện vận động thông minh và khả năng định vị qua 5 hệ thống vệ tinh khác biệt."
+    },
+    {
+      "categoryId": "5d42",
+      "name": "Màn hình MSI PROMP223/21.5 inch/FHD(1920x1080)/VA 100Hz",
+      "price_new": "1.750.000",
+      "price_old": "1.900.000",
+      "quantity": "15",
+      "description": "Mẫu màn hình lý tưởng dành cho giới văn phòng đã xuất hiện, MSI PROMP223 không chỉ có tấm nền 21.5 inch sắc nét mà còn sở hữu loạt công nghệ bảo vệ mắt và hạn chế căng thẳng trong quá trình làm việc như: chống chớp hình, giảm ánh sáng xanh, chống lóa...",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/24/638284891340639837_man-hinh-msi-promp223-21-5-inch-dd.jpg",
+      "id": "1bd5"
+    },
+    {
+      "categoryId": "5d42",
+      "name": "Màn hình Viewsonic VA2432-H/ 23.8 inch/FHD (1920x1080)/IPS 75Hz",
+      "price_new": "2.190.000",
+      "price_old": "3.190.000",
+      "quantity": "4",
+      "description": "Là một trong những mẫu màn hình xuất sắc nhất trong tầm giá phải chăng, ViewSonic VA2432-H quy tụ loạt tính năng hấp dẫn thường chỉ có ở các sản phẩm cấp như tấm nền IPS, độ bao phủ màu 104% sRGB, tần số quét 75Hz, thiết kế viền siêu mỏng và công nghệ bảo vệ mắt người dùng.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/21/637993181711571493_man-hinh-viewsonic-va2432-h-23-8-inch-dd.jpg",
+      "id": "fd83"
+    },
+    {
+      "categoryId": "b96b",
+      "name": "Bàn phím chơi game EDRA 123",
+      "price_new": "599.000",
+      "price_old": "900.000",
+      "quantity": "10",
+      "description": "Là một trong những mẫu màn hình xuất sắc nhất trong tầm giá phải chăng, ViewSonic VA2432-H quy tụ loạt tính năng hấp dẫn thường chỉ có ở các sản phẩm cấp như tấm nền IPS, độ bao phủ màu 104% sRGB, tần số quét 75Hz, thiết kế viền siêu mỏng và công nghệ bảo vệ mắt người dùng.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/2/638398092692895352_ban-phim-choi-game-edra-ek368-dd.jpg",
+      "id": "9934"
+    },
+    {
+      "id": "dbba",
+      "categoryId": "b9e8",
+      "name": "Masstel Tab 10M 4G ",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/6/638006461102508767_may-tinh-bang-masstel-tab-10m-4g-docquyen-100ngay.jpg",
+      "price_new": "2.290.000",
+      "price_old": "3.490.000",
+      "quantity": "5",
+      "description": "Sở hữu cấu hình xuất sắc trong tầm giá và được trang bị hệ điều hành Android 11 thế hệ mới, máy tính bảng Masstel Tab 10M 4G là sự lựa chọn tuyệt vời nhất trong phân khúc giá rẻ khi ghi nhận dung lượng pin khủng 6.000 mAh."
+    },
+    {
+      "id": "9980",
+      "categoryId": "b9e8",
+      "name": "Samsung Galaxy Tab S6 Lite",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/22/637994560710957944_samsung-galaxy-tab-s6-lite-2022--dd-docquyen.jpg",
+      "price_new": "6.990.000",
+      "price_old": "9.990.000",
+      "quantity": "10",
+      "description": "Gặp gỡ Samsung Galaxy Tab S6 Lite 2022 - phiên bản mới với sự nâng cấp mạnh về hiệu năng Snapdragon 720G, cho mọi tác vụ mượt mà, đa nhiệm hoàn hảo từ học tập, làm việc đến giải trí. Sự hỗ trợ của bút S-Pen còn là người bạn tuyệt vời để thỏa thích sáng tạo, tăng hiệu suất công việc."
+    },
+    {
+      "id": "23e8",
+      "categoryId": "b9e8",
+      "name": "iPad Air 5 2022 10.9 inch M1 WiFi 64GB ",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/9/637824187249578799_ipad-air-2022-wifi-dd.jpg",
+      "price_new": "14.190.000",
+      "price_old": "16.990.000",
+      "quantity": "100",
+      "description": "Sức mạnh hiệu năng của iPad Air 5 đánh dấu bước tiến mạnh mẽ với sự góp mặt của chip xử lý M1 xuất sắc do chính Apple phát triển."
+    },
+    {
+      "categoryId": "b9e8",
+      "name": "iPad mini 6 2021 8.3 inch WiFi 64GB ",
+      "price_new": "11.990.000",
+      "price_old": "14.990.000",
+      "quantity": "20",
+      "description": "Sức mạnh khủng khiếp trong một thiết kế nhỏ gọn đáng yêu, iPad Mini 6 2021 đánh dấu sự trở lại mạnh mẽ của dòng iPad mini luôn được người dùng yêu thích, nơi bạn được tận hưởng ma thuật bên trong chiếc máy tính bảng tuyệt đẹp, hiệu suất đỉnh cao và hỗ trợ bút cảm ứng Apple Pencil.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673371022722752_ipad-mini-8-3-2021-wi-fi-dd.jpg",
+      "id": "6c1d"
+    },
+    {
+      "id": "ef6f",
+      "categoryId": "b9e8",
+      "name": "Lenovo Tab M10 3GB-32GB (Gen 3) ",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/11/10/638352204368001956_lenovo-tab-m10-gen-3-xam-dd-bh.jpg",
+      "price_new": "3.790.000",
+      "price_old": " 5.290.000",
+      "quantity": "11",
+      "description": "Sở hữu màn hình 10.1 inch, viên pin xuất sắc và nằm ở phân khúc giá phải chăng, Lenovo Tab M10 Gen 3 là lựa chọn tốt cho những ai muốn tận hưởng hình ảnh rộng lớn với mức đầu tư vừa tầm. Giải trí, làm việc và học tập trên Tab M10, bạn sẽ có được trải nghiệm mà smartphone khó lòng có được."
+    },
+    {
+      "id": "b631",
+      "categoryId": "b9e8",
+      "name": "Samsung Galaxy Tab S9 Wifi 256GB ",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/26/638259963956749534_samsung-galaxy-tab-s9-xam-dd.jpg",
+      "price_new": "16.990.000",
+      "price_old": "21.990.000",
+      "quantity": "5",
+      "description": "Định vị chuẩn tablet cao cấp thế hệ mới với những công nghệ đầu ngành, Samsung Galaxy Tab S9 Wifi cho phép người dùng tận hưởng màn hình Dynamic AMOLED 2x đắm chìm, chuẩn kháng bụi/nước IP68 cực kì bền bỉ và hiệu suất cao nhờ vào con chip Snapdragon 8 Gen 2 for Galaxy. "
+    },
+    {
+      "categoryId": "1",
+      "name": "OPPO A18 4GB 128GB",
+      "price_new": "3.990.000",
+      "price_old": "4.990.000",
+      "quantity": "22",
+      "description": "Sở hữu thiết kế thời thượng với mặt lưng chuyển màu bắt mắt, cấu hình phần cứng tốt cho hiệu năng ổn định, pin lớn cho thời lượng sử dụng cả ngày dài và hệ thống camera chất lượng, OPPO A18 sẽ mang tới cho bạn trải nghiệm tuyệt vời trong việc xử lý công việc, học tập cũng như giải trí hàng ngày.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/11/30/638369330959006392_oppo-a18-dd-doimoi.jpg",
+      "id": "bed0"
+    },
+    {
+      "categoryId": "1",
+      "name": "OPPO Reno10 5G 128GB",
+      "price_new": "8.990.000",
+      "price_old": " 9.990.000",
+      "quantity": "11",
+      "description": "Sở hữu nhiều cải tiến ấn tượng, OPPO Reno10 5G giúp người dùng tận hưởng những công nghệ mới. Từ hiệu năng mạnh mẽ Dimensity 7050 vượt trội, sạc nhanh 67W tiện lợi đến hệ thống camera chân dung chuyên nghiệp. OPPO Reno10 5G sẽ dành cho những ai đang tìm kiếm chiếc điện thoại chụp ảnh chân dung xuất sắc và cấu hình mượt mà.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+      "id": "30e0"
+    },
+    {
+      "categoryId": "1",
+      "name": "Samsung Galaxy S24 Ultra 5G 256GB",
+      "price_new": "30.990.000",
+      "price_old": "33.990.000",
+      "quantity": "11",
+      "description": "Sở hữu nhiều cải tiến ấn tượng, OPPO Reno10 5G giúp người dùng tận hưởng những công nghệ mới. Từ hiệu năng mạnh mẽ Dimensity 7050 vượt trội, sạc nhanh 67W tiện lợi đến hệ thống camera chân dung chuyên nghiệp. OPPO Reno10 5G sẽ dành cho những ai đang tìm kiếm chiếc điện thoại chụp ảnh chân dung xuất sắc và cấu hình mượt mà.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/17/638411327082018867_samsung-galaxy-s24-ultra-dd.jpg",
+      "id": "e452"
+    },
+    {
+      "categoryId": "1",
+      "name": "Samsung Galaxy Z Flip5 5G 256GB",
+      "price_new": "18.990.000",
+      "price_old": " 25.990.000",
+      "quantity": "22",
+      "description": "Nhập hội linh hoạt cùng Samsung Galaxy Z Flip 5, bạn sẽ trải nghiệm loạt công nghệ đột phá đầy thú vị và thiết kế độc đáo hoàn toàn mới. Nơi bạn có thể thỏa thích khám phá và tự tin thể hiện gu cá tính. Sự nhỏ gọn, vừa vặn và tính thời trang của Z Flip 5 còn giúp bạn thật nổi bật và sẵn sàng “cân” mọi phong cách yêu thích.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/28/638288178412655978_samsung-galaxy-z-flip5-xanh-dd-tragop.jpg",
+      "id": "7d6d"
+    },
+    {
+      "categoryId": "2",
+      "name": "MacBook Air 15 inch M2 2023 8CPU 10GPU 8GB/256GB",
+      "price_new": "30.490.000",
+      "price_old": " 32.890.000",
+      "quantity": "10",
+      "description": "Không chỉ khơi gợi cảm hứng qua việc cách tân thiết kế, MacBook Air M2 2022 còn chứa đựng nguồn sức mạnh lớn lao với chip M2 siêu mạnh, thời lượng pin chạm  ngưỡng 18 giờ, màn hình Liquid Retina tuyệt đẹp và hệ thống camera kết hợp cùng âm thanh tân tiến.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/6/638216321887898902_macbook-air-m2-2023-15-inch-bac-dd.jpg",
+      "id": "d91d"
+    },
+    {
+      "id": "a18b",
+      "categoryId": "b96b",
+      "name": " Tai nghe chụp tai Beats Studio3 Wireless",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859814251868453_tai-nghe-choang-dau-beats-studio3-wireless-vang-dd.jpg",
+      "price_new": "5.990.000",
+      "price_old": "6.990.000",
+      "quantity": "10",
+      "description": "Với hàng loạt các tính năng như khử ồn chủ động Pure ANC, hiệu chỉnh âm thanh thời gian thực và thời lượng pin lên đến 22 giờ, Beats Studio3 chắc chắn sẽ là một chiếc tai nghe bluetooth hoàn hảo cho những người đang tìm kiếm trải nghiệm nghe cao cấp."
+    },
+    {
+      "categoryId": "b96b",
+      "name": "Tai nghe gaming Zadez GT-326P có mic",
+      "price_new": "455.000",
+      "price_old": " 650.000",
+      "quantity": "33",
+      "description": "Với hàng loạt các tính năng như khử ồn chủ động Pure ANC, hiệu chỉnh âm thanh thời gian thực và thời lượng pin lên đến 22 giờ, Beats Studio3 chắc chắn sẽ là một chiếc tai nghe bluetooth hoàn hảo cho những người đang tìm kiếm trải nghiệm nghe cao cấp.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/28/637369020119154913_Zadez%20GT-326P-AVT.jpg",
+      "id": "1a9c"
+    },
+    {
+      "categoryId": "b96b",
+      "name": "Loa Bluetooth Divoom - Fairy",
+      "price_new": "1.999.000",
+      "price_old": " 2.500.000",
+      "quantity": "10",
+      "description": "Loa Bluetooth Divoom Fairy-Ok có thiết kế rất ấn tượng khi vừa mang phong cách cổ điển, lại vừa có các màu sắc rất dễ thương và bắt trend. Với loa Divoom Fairy-Ok, bạn có thể hát karaoke mọi lúc mọi nơi với chất lượng âm thanh chân thực, micro đa năng, thời lượng pin tới 6 giờ và khả năng kết nối Bluetooth v5.0 tương thích cao.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/25/638049821263107623_HASP-DIVOOM-FAIRY-XANH-AVT.jpg",
+      "id": "06c8"
+    },
+    {
+      "categoryId": "0de1",
+      "name": "iMac 24\" 2021 Retina 4.5K M1/8-Core CPU/8-Core GPU/8GB/256GB SSD",
+      "price_new": "33.999.000",
+      "price_old": "39.999.000",
+      "quantity": "10",
+      "description": "iMac 24\" 2021 Retina 4.5K M1 là lựa chọn hoàn hảo thích hợp cho mọi không gian của bạn. Dù là để làm việc hay giải trí, sức mạnh cùng phong cách của iMac cũng mang đến sự thú vị và những giá trị riêng biệt chỉ có ở Apple.\n\n",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/4/21/637546115987250426_imac-24-silver-dd.jpg",
+      "id": "7c20"
+    },
+    {
+      "id": "159e",
+      "categoryId": "5d42",
+      "name": "iMac 24\" 2021 Retina 4.5K M1/8-Core CPU/8-Core GPU/8GB/256GB SSD",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/4/21/637546115987250426_imac-24-silver-dd.jpg",
+      "price_new": "35.999.000",
+      "price_old": "40.999.000",
+      "quantity": "10",
+      "description": "iMac 24\" 2021 Retina 4.5K M1 là lựa chọn hoàn hảo thích hợp cho mọi không gian của bạn. Dù là để làm việc hay giải trí, sức mạnh cùng phong cách của iMac cũng mang đến sự thú vị và những giá trị riêng biệt chỉ có ở Apple.\n\n"
+    },
+    {
+      "id": "405d",
+      "categoryId": "5d42",
+      "name": "iMac 24 2023 M3 8 CPU/10 GPU/8GB/256GB",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/31/638343695739775330_imac-24-2023-m3-8-cpu-xanh-la-dd.jpg",
+      "price_new": "41.990.000",
+      "price_old": "45.990.000",
+      "quantity": "11",
+      "description": "Phiên bản iMac 24 2023 mà bạn đang theo dõi được trang bị chip M3 với 8CPU và 10GPU, hứa hẹn hiệu năng đồ họa ấn tượng nhằm đáp ứng những trải nghiệm thực sự chuyên nghiệp. Sản phẩm sẽ trình diễn trước mắt bạn không gian hiển thị hình ảnh 24 inch sắc sảo và mãn nhãn, đồng thời gây ấn tượng với thiết kế siêu mỏng."
+    },
+    {
+      "id": "63b6",
+      "categoryId": "b96b",
+      "name": " Bàn phím không dây Apple Magic Keyboard with Numeric Keypad",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2018/4/17/636595525133233394_00450520-1o.png",
+      "price_new": "3.039.000",
+      "price_old": "4.039.000",
+      "quantity": "10",
+      "description": "Là mẫu bàn phím chuyên dụng dành cho những người chuyên nghiệp, Apple Magic Keyboard phiên bản có Numeric Keypad không chỉ giúp bạn soạn thảo văn bản dễ dàng mà còn nhập liệu thuận tiện hơn rất nhiều nhờ cụm phím số và phím điều hướng ở cạnh bên. Đây sẽ là phụ kiện tuyệt vời dành cho những người yêu thích hệ sinh thái Apple."
+    },
+    {
+      "categoryId": "b96b",
+      "name": " Loa Bluetooth Divoom Zooe",
+      "price_new": "1.440.000",
+      "price_old": "1.800.000",
+      "quantity": "10",
+      "description": "Với những tính năng tiện ích và thiết kế nhỏ gọn, Divoom Zooe là một lựa chọn tốt cho những người yêu thích âm nhạc và muốn có một loại loa di động để mang theo bên mình khi đi du lịch hay dùng trong nhà.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/14/638170945191412950_00872310%20-%20blue%20ava.jpg",
+      "id": "aeb2"
+    },
+    {
+      "categoryId": "2",
+      "name": "Laptop HP Gaming Victus 16-s0078AX R5-7640HS/16GB/512GB/16.1\"FHD/Nvidia RTX3050 6GB/Win11",
+      "price_new": "24.490.000",
+      "price_old": "27.390.000",
+      "quantity": "10",
+      "description": "Trong thế giới đầy ảo diệu và rộng lớn của các tựa game hiện nay, việc lựa chọn một chiếc laptop gaming mạnh mẽ và phù hợp là điều vô cùng cần thiết để các game thủ được tận hưởng những giờ phút giải trí sảng khoái nhất. Giữa một rừng sản phẩm, HP Gaming Victus 16-s0078AX nổi bật lên là một lựa chọn cực kì giá trị và đáng tin cậy.",
+      "product_image": "https://images.fpt.shop/unsafe/fit-in/240x215/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/28/638288269292176880_hp-gaming-victus-16-s0078ax-r5-7640hs-dd.jpg",
+      "id": "b4b4"
+    }
+  ],
+  "users": [
+    {
+      "id": "cfdf",
+      "username": "vuvansy",
+      "password": "Sy081199",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil "
+    },
+    {
+      "id": "e8e7",
+      "username": "phuongthao23",
+      "password": "Sy081199",
+      "fullname": "Nguyễn Phương Thảo",
+      "email": "syvvps26357@fpt.edu.vn",
+      "phone": "0828937374",
+      "address": "Hồ Chí Minh"
+    },
+    {
+      "id": "f1be",
+      "username": "vuvansy",
+      "password": "Sy081199",
+      "fullname": "Phương Thảo",
+      "email": "syvv819@gmail.com",
+      "phone": "0342300092",
+      "address": "TP.HCM"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "items": [],
+      "total": 0
+    },
+    {
+      "id": "86d5",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 1
+        }
+      ],
+      "userId": "cfdf"
+    },
+    {
+      "id": "0c69",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859814251868453_tai-nghe-choang-dau-beats-studio3-wireless-vang-dd.jpg",
+          "ten": "Tai nghe chụp tai Beats Studio3 Wireless",
+          "gia": 5990000,
+          "soluong": 2
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/2/638398092692895352_ban-phim-choi-game-edra-ek368-dd.jpg",
+          "ten": "Bàn phím chơi game EDRA 123",
+          "gia": 599000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/25/638049821263107623_HASP-DIVOOM-FAIRY-XANH-AVT.jpg",
+          "ten": "Loa Bluetooth Divoom - Fairy",
+          "gia": 1999000,
+          "soluong": 3
+        }
+      ],
+      "userId": "cfdf"
+    }
+  ],
+  "orders": [
+    {
+      "id": "6f36",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "Đóng gói hàng cẩn  thận giúp mình nha shop...",
+      "status": "2",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 2
+        }
+      ],
+      "total": 1,
+      "quantity": 17980000,
+      "orderTime": "27-01-2024 17:03",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "6ebc",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "2",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/24/638284891340639837_man-hinh-msi-promp223-21-5-inch-dd.jpg",
+          "ten": "Màn hình MSI PROMP223/21.5 inch/FHD(1920x1080)/VA 100Hz",
+          "gia": 1750000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/16/637989408042339485_dong-ho-thong-minh-garmin-forerunner-255-music-dd.jpg",
+          "ten": "Đồng hồ thông minh Garmin Forerunner 255 Music",
+          "gia": 7990000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859814251868453_tai-nghe-choang-dau-beats-studio3-wireless-vang-dd.jpg",
+          "ten": "Tai nghe chụp tai Beats Studio3 Wireless",
+          "gia": 5990000,
+          "soluong": 2
+        }
+      ],
+      "total": 3,
+      "quantity": 21720000,
+      "orderTime": "27-01-2024 17:04",
+      "paymentMethod": "0"
+    },
+    {
+      "id": "892d",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "1",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/19/637859814251868453_tai-nghe-choang-dau-beats-studio3-wireless-vang-dd.jpg",
+          "ten": "Tai nghe chụp tai Beats Studio3 Wireless",
+          "gia": 5990000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/28/637369020119154913_Zadez%20GT-326P-AVT.jpg",
+          "ten": "Tai nghe gaming Zadez GT-326P có mic",
+          "gia": 455000,
+          "soluong": 1
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/25/638049821263107623_HASP-DIVOOM-FAIRY-XANH-AVT.jpg",
+          "ten": "Loa Bluetooth Divoom - Fairy",
+          "gia": 1999000,
+          "soluong": 3
+        }
+      ],
+      "total": 4,
+      "quantity": 21432000,
+      "orderTime": "28-01-2024 00:09",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "b4a2",
+      "userId": "e8e7",
+      "fullname": "Nguyễn Phương Thảo",
+      "email": "syvvps26357@fpt.edu.vn",
+      "phone": "0828937374",
+      "address": "Kp5 Hiệp Thành, Q12 TP.Hồ Chí Minh",
+      "note": "Sản phẩm đóng gỏi cẩn thận nha shop",
+      "status": "2",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/6/638006461102508767_may-tinh-bang-masstel-tab-10m-4g-docquyen-100ngay.jpg",
+          "ten": "Masstel Tab 10M 4G",
+          "gia": 2290000,
+          "soluong": 3
+        }
+      ],
+      "total": 1,
+      "quantity": 6870000,
+      "orderTime": "28-01-2024 00:52",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "c375",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "3",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 2
+        }
+      ],
+      "total": 1,
+      "quantity": 17980000,
+      "orderTime": "28-01-2024 14:32",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "113c",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "3",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/11/638405807209611259_xiaomi-redmi-note-13-xanh-dd.gif",
+          "ten": "Xiaomi Redmi Note 12 6GB 128GB",
+          "gia": 7590000,
+          "soluong": 1
+        }
+      ],
+      "total": 1,
+      "quantity": 7590000,
+      "orderTime": "28-01-2024 14:35",
+      "paymentMethod": "0"
+    },
+    {
+      "id": "126d",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": 3,
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 1
+        }
+      ],
+      "total": 1,
+      "quantity": 8990000,
+      "orderTime": "29-01-2024 08:08",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "9d68",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "1",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg",
+          "ten": "OPPO Reno10 5G 128GB",
+          "gia": 8990000,
+          "soluong": 1
+        }
+      ],
+      "total": 1,
+      "quantity": 8990000,
+      "orderTime": "29-01-2024 08:09",
+      "paymentMethod": "0"
+    },
+    {
+      "id": "b5e9",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": "0",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/4/21/637546115987250426_imac-24-silver-dd.jpg",
+          "ten": "iMac 24\" 2021 Retina 4.5K M1/8-Core CPU/8-Core GPU/8GB/256GB SSD",
+          "gia": 35999000,
+          "soluong": 1
+        }
+      ],
+      "total": 1,
+      "quantity": 35999000,
+      "orderTime": "30-01-2024 07:49",
+      "paymentMethod": "1"
+    },
+    {
+      "id": "9620",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "",
+      "note": "",
+      "status": "0",
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/24/638284891340639837_man-hinh-msi-promp223-21-5-inch-dd.jpg",
+          "ten": "Màn hình MSI PROMP223/21.5 inch/FHD(1920x1080)/VA 100Hz",
+          "gia": 1750000,
+          "soluong": 2
+        },
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/11/638405807209611259_xiaomi-redmi-note-13-xanh-dd.gif",
+          "ten": "Xiaomi Redmi Note 12 6GB 128GB",
+          "gia": 7590000,
+          "soluong": 1
+        }
+      ],
+      "total": 2,
+      "quantity": 11090000,
+      "orderTime": "28-02-2024 23:12",
+      "paymentMethod": "0"
+    },
+    {
+      "id": "cd48",
+      "userId": "cfdf",
+      "fullname": "Vũ Văn Sỹ",
+      "email": "vuvansy3001@gmail.com",
+      "phone": "0828937374",
+      "address": "Thôn 4 Xã Eapil ",
+      "note": "",
+      "status": 3,
+      "items": [
+        {
+          "hinh": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/11/30/638369330959006392_oppo-a18-dd-doimoi.jpg",
+          "ten": "OPPO A18 4GB 128GB",
+          "gia": 3990000,
+          "soluong": 1
+        }
+      ],
+      "total": 1,
+      "quantity": 3990000,
+      "orderTime": "28-02-2024 23:13",
+      "paymentMethod": "0"
+    }
+  ]
+}

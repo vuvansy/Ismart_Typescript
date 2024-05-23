@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/solid.min.css"
+        />
+        <link rel="stylesheet" href="public/style.css" />
+        <title>Admintrator</title>
+    </head>
+
+    <body>
+        <div id="warpper" class="nav-fixed">
+            <nav class="topnav shadow navbar-light bg-white d-flex">
+                <div class="navbar-brand"><a href="?">ISMART ADMIN</a></div>
+                <div class="nav-right">
+                    <div class="btn-group mr-auto">
+                        <button
+                            type="button"
+                            class="btn dropdown"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <i class="plus-icon fas fa-plus-circle"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="add-post"
+                                >Thêm bài viết</a
+                            >
+                            <a class="dropdown-item" href="add-product"
+                                >Thêm sản phẩm</a
+                            >
+                            <a class="dropdown-item" href="list-order"
+                                >Thêm đơn hàng</a
+                            >
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button
+                            type="button"
+                            class="btn dropdown-toggle"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Văn Sỹ
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Tài khoản</a>
+                            <a class="dropdown-item" href="#">Thoát</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- end nav  -->
+            <div id="page-body" class="d-flex">
+                <div id="sidebar" class="bg-white">
+                    <ul id="sidebar-menu">
+                        <li class="nav-link active">
+                            <a href="#">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Danh mục
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="add-category.html">Thêm mới</a>
+                                </li>
+                                <li>
+                                    <a href="list-category.html">Danh sách</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Sản phẩm
+                            </a>
+                            <i class="arrow fas fa-angle-down"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="add-product.html">Thêm mới</a>
+                                </li>
+                                <li>
+                                    <a href="list-product.html">Danh sách</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="list-order.html">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Bán hàng
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+                            <ul class="sub-menu">
+                                <li><a href="list-order.html">Đơn hàng</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="?view=list-user">
+                                <div class="nav-link-icon d-inline-flex">
+                                    <i class="far fa-folder"></i>
+                                </div>
+                                Users
+                            </a>
+                            <i class="arrow fas fa-angle-right"></i>
+
+                            <ul class="sub-menu">
+                                <li><a href="?view=add-user">Thêm mới</a></li>
+                                <li><a href="?view=list-user">Danh sách</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="wp-content">
+                    <div id="content" class="container-fluid">
+                        <div class="card">
+                            <div
+                                class="card-header font-weight-bold d-flex justify-content-between align-items-center"
+                            >
+                                <h5 class="m-0">Danh sách đơn hàng</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="analytic" id="listStatus">
+                                    <!-- <a
+                                        href=""
+                                        class="text-primary font-weight-bold"
+                                        >Đang xử lý<span
+                                            class="text-muted"
+                                            id="muted0"
+                                            >(10)</span
+                                        ></a
+                                    >
+                                    <a
+                                        href=""
+                                        class="text-primary font-weight-bold"
+                                        >Đang vận chuyển<span
+                                            class="text-muted"
+                                            id="muted1"
+                                            >(5)</span
+                                        ></a
+                                    >
+                                    <a
+                                        href=""
+                                        class="text-success font-weight-bold"
+                                        >Hoàn thành<span
+                                            class="text-muted"
+                                            id="muted2"
+                                            >(20)</span
+                                        ></a
+                                    >
+                                    <a
+                                        href=""
+                                        class="text-danger font-weight-bold"
+                                        >Đã hủy<span
+                                            class="text-muted"
+                                            id="muted3"
+                                            >(20)</span
+                                        ></a
+                                    > -->
+                                </div>
+                                <div class="form-action form-inline py-3">
+                                    <select class="form-control mr-1" id="">
+                                        <option>Chọn</option>
+                                        <option>Tác vụ 1</option>
+                                        <option>Tác vụ 2</option>
+                                    </select>
+                                    <input
+                                        type="submit"
+                                        name="btn-search"
+                                        value="Áp dụng"
+                                        class="btn btn-primary"
+                                    />
+                                </div>
+                                <table
+                                    class="table table-striped table-checkall"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <input
+                                                    type="checkbox"
+                                                    name="checkall"
+                                                />
+                                            </th>
+                                            <th scope="col">STT</th>
+                                            <th scope="col">Mã đơn hàng</th>
+                                            <th scope="col">Khách hàng</th>
+                                            <th scope="col">Số sản phẩm</th>
+                                            <th scope="col">Tổng giá</th>
+                                            <th scope="col">Trạng thái</th>
+                                            <th scope="col">Thời gian</th>
+                                            <th scope="col">Chi tiết</th>
+                                            <th scope="col">Tác vụ</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="placeholder_order"></tbody>
+                                </table>
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a
+                                                class="page-link"
+                                                href="#"
+                                                aria-label="Previous"
+                                            >
+                                                <span aria-hidden="true"
+                                                    >Trước</span
+                                                >
+                                                <span class="sr-only">Sau</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a
+                                                class="page-link"
+                                                href="#"
+                                                aria-label="Next"
+                                            >
+                                                <span aria-hidden="true"
+                                                    >&raquo;</span
+                                                >
+                                                <span class="sr-only"
+                                                    >Next</span
+                                                >
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="public/js/app.js"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script type="module" src="./app/listOrder.js"></script>
+        <!-- <script type="module" src="./app/listOrdertest.js"></script> -->
+    </body>
+</html>
